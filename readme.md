@@ -5,7 +5,7 @@
 
 
 Aplikasi Catatan Harian MVP
-Aplikasi Catatan Harian MVP adalah sebuah proyek yang dikembangkan untuk Tugas UTS semester genap tahun 2023 dalam mata kuliah Aplikasi Komputer Bergerak (AKB). Proyek ini ditujukan untuk memenuhi tugas dari mahasiswa dengan NIM 10120160 dari Program Studi Teknik Informatika.
+Aplikasi Catatan Harian MVP adalah sebuah proyek yang dikembangkan untuk Tugas UTS semester genap tahun 2023 dalam mata kuliah Aplikasi Komputer Bergerak (AKB). Proyek ini ditujukan untuk memenuhi tugas dengan NIM 10120160 dari Program Studi Teknik Informatika UNIKOM.
 
 
 ## Deskripsi Proyek
