@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NIM: 10120160 | Nama : Rendi Julianto | Kelas : IF-4 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+        <TextView
+            android:id="@+id/tv_title_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="25dp"
+            android:text="Tambah Catatan"/>
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Judul"
+            android:autofillHints=""
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/et_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Kategori"
+            android:autofillHints=""
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Isi / Konten"
+            android:autofillHints=""
+            android:layout_marginBottom="10dp"/>
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"/>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="KEMBALI"/>
+
+
+</LinearLayout>

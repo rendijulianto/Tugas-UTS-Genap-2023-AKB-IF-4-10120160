@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_container"
+    android:padding="16dp">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textStyle="bold" />
+
+    <!-- Kategori -->
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori" />
+
+    <!-- Konten -->
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konten" />
+
+    <!-- Tanggal Buat -->
+    <TextView
+        android:id="@+id/tv_created_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Dibuat" />
+
+    <!-- Tanggal Edit -->
+    <TextView
+        android:id="@+id/tv_updated_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Diedit"
+        android:layout_marginBottom="16dp" />
+
+
+</LinearLayout>
