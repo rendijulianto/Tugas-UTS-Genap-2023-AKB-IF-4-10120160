@@ -145,7 +145,7 @@ public class NoteFragment extends Fragment {
                                 break;
                             case 1:
                                 db.Delete(Integer.parseInt(id));
-                                Toast.makeText(getContext(), "Berhasil menghabis catatan", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getContext(), "Berhasil menghapus catatan", Toast.LENGTH_SHORT).show();
                                 notes.clear();
                                 read();
                                 break;
